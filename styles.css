@@ -1,14 +1,18 @@
 /*  your css code here. If applicable */
-.container {
+.testimonial-section {
 	background-color:#f5f5f5;
-	padding:20px;
-	width:70%;
-	font-size:10px;
+	padding:50px;
+	display: flex;
+	flex-flow: wrap column;
 }
-div {
+.testimonial {
 	background-color:white;
+	padding: 20px;
+	margin: 10px;
+	font-size:10px
+	
 }
-.align {
-	text-align:right;
-	font-style:italic;
+.testimonial-author {
+	text-align: right;
+	font-style: italic;
 }
